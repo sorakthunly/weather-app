@@ -1,7 +1,7 @@
 import { Typography } from '@material-ui/core';
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
-import { getBaseline } from '../../app/theme/themeFunctions';
+import { getBaseline } from '../../../app/theme/themeFunctions';
 
 const SearchHeaderWrapper = styled.div`
 	padding-bottom: ${getBaseline(3)};

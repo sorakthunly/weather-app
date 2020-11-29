@@ -3,10 +3,10 @@ import React, { Fragment, FunctionComponent } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import ClearIcon from '@material-ui/icons/Clear';
 import styled from 'styled-components';
-import { State } from '../../app/redux/reducers';
-import { getBaseline } from '../../app/theme/themeFunctions';
-import { clearCityWeather } from '../Search/searchActions';
-import { Temperature } from '../../components/Temperature/Temperature';
+import { State } from '../../../app/redux/reducers';
+import { getBaseline } from '../../../app/theme/themeFunctions';
+import { clearCityWeather } from '../searchActions';
+import { Temperature } from '../../../components/Temperature/Temperature';
 
 const TypographyMuted = styled(Typography)`
 	color: #9e9e9e;

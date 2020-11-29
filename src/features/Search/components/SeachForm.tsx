@@ -2,9 +2,9 @@ import { Button, FormControl, TextField } from '@material-ui/core';
 import React, { FormEvent, FunctionComponent, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import styled from 'styled-components';
-import { State } from '../../app/redux/reducers';
-import { getBaseline } from '../../app/theme/themeFunctions';
-import { searchCityWeather } from '../Search/searchActions';
+import { State } from '../../../app/redux/reducers';
+import { getBaseline } from '../../../app/theme/themeFunctions';
+import { searchCityWeather } from '../searchActions';
 
 const FieldSet = styled.fieldset`
 	border: none;

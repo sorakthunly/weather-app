@@ -2,12 +2,12 @@ import { Divider, LinearProgress } from '@material-ui/core';
 import React, { Fragment, FunctionComponent } from 'react';
 import styled from 'styled-components';
 import { getBaseline } from '../../app/theme/themeFunctions';
-import SearchHistory from '../components/SearchHistory';
-import SearchHeader from '../components/SearchHeader';
-import SearchForm from '../components/SeachForm';
+import SearchHistory from './components/SearchHistory';
+import SearchHeader from './components/SearchHeader';
+import SearchForm from './components/SeachForm';
 import { useSelector } from 'react-redux';
 import { State } from '../../app/redux/reducers';
-import CurrentLocationWeather from '../components/CurrentLocationWeather';
+import CurrentLocationWeather from './components/CurrentLocationWeather';
 
 const SearchPageContainer = styled.div`
 	margin-left: auto;
