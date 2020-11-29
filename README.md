@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Setup
+
+Make sure to export the following environment variables:
+
+```bash
+export REACT_APP_OPEN_WEATHER_MAP_API_KEY=YOUR_API_KEY
+export REACT_APP_OPEN_WEATHER_MAP_BASE_URL=https://api.openweathermap.org/data/2.5
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
